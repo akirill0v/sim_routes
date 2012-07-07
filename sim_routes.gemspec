@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "sim_routes"
   gem.require_paths = ["lib"]
   gem.version       = SimRoutes::VERSION
+
+  gem.add_dependency 'active_support'
 end
